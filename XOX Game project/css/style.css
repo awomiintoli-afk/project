@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #ffe6f0;
+}
+
+h1 {
+  color: #ff4da6;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background: #fff0f5;
+  border: 2px solid #ff99cc;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.cell:hover {
+  background: #ffd6eb;
+}
+
+button {
+  padding: 10px 20px;
+  background: #ff66b2;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
